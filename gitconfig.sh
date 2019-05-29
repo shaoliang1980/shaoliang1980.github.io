@@ -18,11 +18,11 @@ read -t 30  -p "Press Github email:" email
 git config --global user.email $email
 
 
-read -t 30 -p "Please press remote git addr:" remotename
+#  read -t 30 -p "Please press remote git addr:" remotename
+  
+#  echo -e $remotename
 
-echo -e $remotename
-
-git remote add origin $remotename
+#  git remote add origin $remotename
 
 
 git config --global credential.helper store
